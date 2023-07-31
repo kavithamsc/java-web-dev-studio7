@@ -8,6 +8,7 @@ public class DVD extends ComputerDisc implements OpticalDisc {
 
     @Override
     public void spinDisc() {
+
         System.out.println("A DVD spins at a rate of: " + this.getSpinSpeed() + "rpm");
     }
 
